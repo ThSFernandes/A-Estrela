@@ -1,0 +1,51 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(20, 40px);
+    grid-template-rows: repeat(20, 40px);
+    gap: 1px;
+    width: 800px;
+}
+
+
+.grid-item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+}
+
+.botoes-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.botao-gerar-campo{
+    margin-top: 10px;
+    width: 100px;
+}
+
+.botao-gerar-caminho {
+    display: none;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.botao-continuar {
+    margin-top: 10px;
+    width: 100px;
+}
+
+.parede { background-color: #000000; }
+.espaco { background-color: #ffffff; }
+.caminho { background-color: #006eff; }
+
+.fechado {background-color: rgb(255, 0, 0);}
+.aberto {background-color: rgb(9, 255, 0);}
